@@ -1,0 +1,130 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-image:url(images/pizza.jpg);
+                background-repeat:no-repeat;
+                background-size:cover;
+            }
+            .head{
+                width:700px;
+                color: beige;
+                background-color:red;
+                text-align: center;
+                font-family: italic;
+                font-size: 80px;
+                font-weight: bolder;
+                margin: 100px 350px;
+            } 
+           
+            .main{
+                display:inline;
+                word-spacing:20px;
+                position:fixed;
+                margin: -90px 0px;
+            }
+            .main li{
+                display:inline;
+           }
+           .main li a{
+                color:orange;
+                font-weight:bolder;
+                text-decoration:none;
+           }
+
+            .cont{
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                grid-column-gap:10px;
+                
+            }
+            
+            .item{
+                padding: 20px;
+                width: 200px;
+                height: 200px;
+                margin: 50px 20px;
+                text-align: center;
+            }
+            img{
+                width: 250px;
+                height: 250px;
+                border-radius: 10px;
+                opacity: 0.7;
+            }
+            img:hover{
+                box-shadow: 2px 6px 6px 6px;
+                opacity: 2;
+                cursor: pointer;
+            }
+            .c1{
+                width:250px;
+                height:40px;
+                background-color: yellow;
+                border-radius: 10px;
+                cursor: pointer;
+                opacity: 0.7;
+            }
+            .c1:hover{
+                box-shadow: 2px 6px 6px 6px;
+                opacity: 2;
+                cursor: pointer;
+            }
+            a{
+                text-decoration: none;
+                font-size: medium;
+                font-weight: bold;
+            }
+            .new{
+                background-color:wheat;
+                color: black;
+                text-align:center ;
+                text-indent: 10px;
+                font-size: 20px;
+                font-family: Georgia, Times, 'Times New Roman', serif;
+                font-weight:bolder;
+                opacity: 2;
+                margin: 150px 10px;
+                z-index:-1;
+            }
+            .logo{
+                background-color: beige;
+                text-align:center;
+                margin: -148px;
+                background-size: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <ul class="main">
+            <li><button><a href="WEB PAGE FOR RESTUARENT..html">Home</a></button></li>
+            <li><button><a href="images\about us.html">About Us</a></button></li>
+            <li><button><a href="images\menucard.html">Menu Card</a></button></li>
+            <li><button><a href="images\review.html">Review</a></button></li>
+            <li><button><a href="images\codact us.html">Contact Us</a></button></li>
+            </ul> 
+        <p class="head" >Feeling Hungry ?</p>
+        <div class="cont">
+            <div class="item"><img src="images\pizza1.jpg" ><button class="c1"><a href="orderform.html">ORDER NOW</a></button></div>
+            <div class="item"><img src="images\burgers.jpg"><button class="c1"><a href="orderform.html">ORDER NOW</a></button></div>
+            <div class="item"><img src="images\biryani.jpg"><button class="c1"><a href="orderform.html">ORDER NOW</a></button></div>
+            <div class="item"><img src="images\juice.jpg"><button class="c1"><a href="orderform.html">ORDER NOW</a></button></div></div>
+        </div>
+        <div class="new">
+            <br><br>
+            <span>Home Delivery Available</span><br>
+            <span>Working Days Monday - Saturday</span><br>
+            <span>Timing 11:00am-10:00pm</span>
+            <br><br>
+            <h1>LOCATION</h1>
+            <address>
+                Neerodi.<br>
+                Kollemcode(po).<br>
+                Kanyakumari District.<br>
+                Tamilnadu.
+            </address>
+            <br><br>
+            <img src="images\food-festival.jpg" alt="logo">
+        </div>
+    </body>
+</html>
